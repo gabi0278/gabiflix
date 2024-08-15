@@ -1,0 +1,64 @@
+body {
+ color:rgb(102, 22, 102);
+ background:rgb(243, 219, 239);
+ margin: 0px;
+ font-family: "Kalnia Glaze", sans-serif;
+ margin-bottom: 100px;
+}
+
+header{
+
+    border-bottom: solid 2px purple;
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(90, 0, 56);
+}
+
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+
+
+h1 {
+    font-size: 28px;
+  }
+
+
+
+  p {
+    font-size: 20px;
+  }
+
+  img {
+    height: 105px;
+  }
+  
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+  }
+
+
+
+  .categoria-videos img {
+    opacity: 0.5;
+    height: 125px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(230, 57, 138);
+}
+
+.categoria h2 {
+  color: pink
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 25px;
+}
